@@ -2,7 +2,7 @@ require('dotenv').config();
 //the above imports the dotenv and then looks for the .env file which tells process.env what the port is going to run on
 
 
-const server = require('./api/server.js');
+const server = require('./api/server.js'); // import from the api file server.js
 
 //proccess.env is object variable given from express
 //install the package npm install dotenv
